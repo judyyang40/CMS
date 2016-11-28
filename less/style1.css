@@ -1,0 +1,54 @@
+#adminHeader {
+	background-color: #D0D0D0;
+	position: relative;
+	height: 60px;
+	margin-bottom: 20px;
+}
+#adminHeader>h2.shop {
+	position: absolute;
+	left: 20px;
+	top: -4px;
+}
+#adminHeader>p>.addGoodsLink {
+	position: absolute;
+	left: 200px;
+	top: 20px;
+}
+.logout {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+th {
+	text-align: center;
+}
+input#title, textarea#description, input#marketprice, input#salesprice, input#housenum, input#tryon_title,textarea#tryon_description {
+	width: 100%;
+}
+input#size, input#center_x, input#center_y {
+	width: 30%;
+	float: left;
+}
+.col-md-6 {
+	text-align: left;
+}
+.col-md-6>input[type=radio] {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.buttons>input {
+	width: 100px;
+}
+.deletebox {
+	text-align: left;
+}
+div.buttons {
+	text-align: center;
+}
+hr {
+	border-color: #D0D0D0;
+	background-color: #D0D0D0;
+	height: 1px;
+	margin: 30px;
+	border: 0 none;
+}

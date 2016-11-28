@@ -1,0 +1,85 @@
+@import "mixins.less";
+
+.goodImageThumb {
+	  max-width: 150px;
+	  max-height: 150px;
+}
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.4em;
+    font-weight: normal;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+fieldset {
+    text-align: right;
+}
+
+.header {
+    margin-bottom: 1em;
+}
+
+.pagination>.next>a .pagination>.previous>a{
+    background: white;
+}
+
+.pagination>li>a, .pagination>li>span {
+    border: none;
+    background-color: #e1e1e1;
+    color: #5a5a5a;
+    padding: 0.2em 0.5em 0.2em 0.5em !important;
+    margin-left: 0.2em !important;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus{
+    background: red;
+    border: none;
+    color: white;
+}
+
+.pagination > li > a:hover {
+    background: red;
+    color: white;
+}
+
+.pagination>.next>a .pagination>.previous>a{
+    background: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0em 0em;
+    display: inline; 
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: none;
+}
+
+.logolink {
+    margin-top: 1em; 
+}
+
+.goodslistLink, .siteAdminLink {
+    margin-top: 2.2em;
+}
+
+.goodslistLink, .siteAdminLink, .addGoodsLink, .logoutLink {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#goodImage {
+    max-length: 400px;
+    max-width: 400px;
+}
